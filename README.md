@@ -1,17 +1,7 @@
-# Coding LLMs from scratch
-# Coding Llama-2
-Learnt how to train and fine-tune Llama 2 model from scratch.
+*for a better guide than mine, click [here](https://github.com/naklecha/llama3-from-scratch)*
 
-Learnt about transformers architecture, different attention mechanisms (MHA, MQA and GQA), KV cache, RoPE, and Hugginface Trainer in detail.
+# minLlama3
 
-Created and trained a LLaMA 2 model with 100M parameters from scratch using PyTorch to do code completion.
+This repo is meant as a guide on how Llama3's architecture works in the same vein of [Andrej Karpathy's minGPT](https://www.youtube.com/watch?v=kCc8FmEb1nY) (hint: it's basically the same as Llama2). Over in [the colab notebook](https://colab.research.google.com/drive/10BKvPomnVVZw7UAT3wOaaPBdvfMEvOOY?usp=sharing) I'll hold your hand through every single operation performed in Llama 3, and in 'model.py' you can check out what that code looks like once it's turned into actual pytorch `nn.Module` objects. 'training.ipynb' and 'inference.ipynb' are what they sound like. there are 3 different models and 4 different tokenizers over in 'models/' and 'tokenizers/'. The only requirement you'll need to install in order for everything to run that doesn't come with python by default is pytorch. Check out the accompanying youtube video!
 
-# Coding Llama-3
-
-Learnt how to train and fine-tune Llama 3 model from scratch.
-
-Goal is to code LLaMA 3 from scratch in PyTorch to create models with sizes 3B, 6B, 35B and 45B params.
-
-## Acknowledgements 
-Learnt from Prince Canuma
-
+[![ERROR DISPLAYING IMAGE, CLICK HERE FOR VIDEO](https://img.youtube.com/vi/lZj8F6EspVU/0.jpg)](https://www.youtube.com/watch?v=lZj8F6EspVU)
